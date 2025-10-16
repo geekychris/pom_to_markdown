@@ -44,9 +44,9 @@ jobs:
       uses: softprops/action-gh-release@v2
       with:
         files: |
-          slack_${{ github.ref_name }}_darwin_amd64
-          slack_${{ github.ref_name }}_darwin_arm64
-          slack_${{ github.ref_name }}_linux_386
-          slack_${{ github.ref_name }}_linux_amd64
-          slack_${{ github.ref_name }}_linux_arm64
+          pom_to_markdown_${{ github.ref_name }}_darwin_amd64
+          pom_to_markdown_${{ github.ref_name }}_darwin_arm64
+          pom_to_markdown_${{ github.ref_name }}_linux_386
+          pom_to_markdown_${{ github.ref_name }}_linux_amd64
+          pom_to_markdown_${{ github.ref_name }}_linux_arm64
           checksums.txt
