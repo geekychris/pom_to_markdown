@@ -34,6 +34,7 @@ type Parent struct {
 	Version    string `xml:"version"`
 }
 
+
 type Properties struct {
 	JavaVersion    string `xml:"java.version"`
 	MavenCompiler  string `xml:"maven.compiler.source"`
