@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="Pom To Markdown logo" width="180">
+</p>
+
 # My Spring Boot Application
 
 ## Project Information
